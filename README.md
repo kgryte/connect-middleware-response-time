@@ -24,7 +24,7 @@ var responseTime = require( 'connect-middleware-response-time' );
 The middleware generator accepts a `callback` which should accept a `numeric` value as its only input. 
 
 ``` javascript
-responseTime( onTime );
+var mw = responseTime( onTime );
 
 function onTime( value ) {
 	console.log( 'Response time: %s ms', value );
