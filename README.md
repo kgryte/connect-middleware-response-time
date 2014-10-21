@@ -4,6 +4,8 @@ Response Time
 
 > Connect middleware to calculate response times.
 
+Similar to [response-time](https://github.com/expressjs/response-time), except this implementation does not set a response header for the calculated time and does not override the default `response.writeHead` method. The calculated response time is output to a `callback` provided on initialization.
+
 
 ## Installation
 
