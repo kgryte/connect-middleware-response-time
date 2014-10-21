@@ -1,6 +1,6 @@
 {
   "name": "connect-middleware-response-time",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Connect middleware to calculate response times.",
   "author": {
     "name": "Athan Reines",
